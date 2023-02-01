@@ -1,13 +1,77 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.AddQuiz {
+  margin-top: 20px;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+.quizTitle {
+  display: flex;
+  text-align: center;
+  margin: auto;
+  justify-content: center;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.AddPageButtons{
+  display: flex;
+  justify-content: center;
+}
+.AddButton {
+ background-color: #5d3ef7;
+  color: #fff;
+  border: none;
+  padding: 8px;
+  margin: 2px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.ViewButton{
+  background-color: #f39bef;
+  color: #fff;
+  border: none;
+  padding: 8px;
+  margin: 2px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.ViewQuiz {
+  padding: 0 50px;
+}
+.ViewQuizTitle {
+  text-align: center;
+}
+.SectorItem {
+  border: 1px solid #ddd;
+  margin: 2px;
+  padding: 5px;
+  text-align: center;
+  border-radius: 5px;
+}
+.viewQuizButton {
+  display: flex;
+  justify-content: center;
+}
+.NewAddButton {
+  background-color: #00abf5;
+  color: #fff;
+  border: none;
+  padding: 8px;
+  margin: 2px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.EditButton {
+  background-color: #f95ee7;
+  color: #fff;
+  border: none;
+  padding: 8px;
+  margin: 2px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.AddNewButton{
+  display: flex;
+  justify-content: center;
+
 }
