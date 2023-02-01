@@ -108,7 +108,6 @@ const EditQuiz = ({ sectorData }) => {
     // sectorData.push(formQuiz);
 
     sectorData = sectorData.map(item => {
-      console.log("dhukse");
       if (item.id * 1 === id * 1)
       {
         item.name = formQuiz.name;

@@ -1,6 +1,6 @@
 .AddQuiz {
   margin-top: 20px;
-  
+
   display: flex;
   justify-content: center;
   padding-bottom: 50px;
@@ -12,12 +12,12 @@
   justify-content: center;
 }
 
-.AddPageButtons{
+.AddPageButtons {
   display: flex;
   justify-content: center;
 }
 .AddButton {
- background-color: #5d3ef7;
+  background-color: #5d3ef7;
   color: #fff;
   border: none;
   padding: 8px;
@@ -26,7 +26,7 @@
   cursor: pointer;
 }
 
-.ViewButton{
+.ViewButton {
   background-color: #f39bef;
   color: #fff;
   border: none;
@@ -36,15 +36,15 @@
   cursor: pointer;
 }
 .ViewQuiz {
-  padding: 0 50px;
+  padding: 0 5px;
 }
 .ViewQuizTitle {
   text-align: center;
 }
 .SectorItem {
   border: 1px solid #ddd;
-  margin: 2px;
   padding: 5px;
+  margin: 2px;
   text-align: center;
   border-radius: 5px;
 }
@@ -70,8 +70,7 @@
   border-radius: 5px;
   cursor: pointer;
 }
-.AddNewButton{
+.AddNewButton {
   display: flex;
   justify-content: center;
-
 }
